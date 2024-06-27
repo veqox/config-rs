@@ -1,0 +1,9 @@
+[package]
+name = "config-rs"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+dotenv = "0.15.0"
+macros = { path = "crates/macros", version = "*" }
+tracing = "0.1.40"
